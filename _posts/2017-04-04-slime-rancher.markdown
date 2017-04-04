@@ -17,4 +17,4 @@ categories: ["Game", "Indie", "Tycoon"]
 트레일러를 보고 귀여움에 바로 반한 당신이라면, 어서 빨리 이 게임을 구매해도 좋다.
 보호되는(납치당한) 슬라임(보석 노예)의 귀여움은 당신을 배신하지 않을 테니까!
 
-[구매 - Steam]{{http://store.steampowered.com/app/433340/}}
+[구매 - Steam](http://store.steampowered.com/app/433340/)
