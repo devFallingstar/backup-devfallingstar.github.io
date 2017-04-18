@@ -7,7 +7,7 @@
 
 // Our variables
 $base-font-family: "PT Sans", Helvetica, Arial, sans-serif;
-$base-font-size:   12px;
+$base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -291,7 +291,7 @@ pre {
 
 .post {
   font-family: "Source Sans Pro";
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 300;
   padding-top: 0;
 }
@@ -570,7 +570,7 @@ pre {
   margin-bottom: $spacing-unit;
 }
 .post-title {
-  font-size: 62px;
+  font-size: 20px;
 
   text-align: center;
   font-family: "PT Sans";
@@ -583,7 +583,7 @@ pre {
   margin-bottom: $spacing-unit;
   padding-bottom: 3em !important;
   p {
-    font-size: 1.5rem;
+    font-size: 12px;
   }
   h2 {
     font-size: 32px;
