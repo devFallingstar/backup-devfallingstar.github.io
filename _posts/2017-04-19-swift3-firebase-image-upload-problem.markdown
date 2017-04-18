@@ -2,6 +2,7 @@
 layout: post
 title: "[Swift 3.0, Firebase] UIImagePickerViewController를 이용한 이미지 업로드시 에러"
 date: "2017-04-19 02:07:15 +0900"
+categories: ["Development", "iOS", "Swift", "Firebase"]
 ---
 
 파이어베이스 Storage에 이미지를 업로드 하려던 중, 다음과 같은 오류를 만났다.
