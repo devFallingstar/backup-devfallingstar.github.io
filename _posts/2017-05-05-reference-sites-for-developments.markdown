@@ -2,6 +2,7 @@
 layout: post
 title: "[개발 자료] 개발시 참고할 수 있는 자료 모음"
 date: "2017-05-05 14:26:34 +0900"
+categories: ["Development", "Language", "Programming"]
 ---
 
 제 1의 스승은 부모이고, 제 2의 스승은 고등학교 담임이며, 제 3의 스승은 구글이라는 말이 있다(물론 없다).
