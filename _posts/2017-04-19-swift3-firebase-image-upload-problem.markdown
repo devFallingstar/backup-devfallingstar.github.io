@@ -16,7 +16,7 @@ Error Domain=NSCocoaErrorDomain Code=4 "The file doesn’t exist."
 
 코드 부분을 살펴보도록하자.
 
-{% highlight language %}
+{% highlight swift %}
 func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
     let image = info[UIImagePickerControllerOriginalImage] as! UIImage
     let imageUrl = info[UIImagePickerControllerReferenceURL] as? URL
@@ -49,7 +49,7 @@ image 상수에는 UIImagePickerController가 종료될 때 얻어온 OriginalIm
 참고로 제작 중인 어플리케이션은 앨범과 카메라 두 개의 소스를 모두 사용하지만, 당시 코드를 짤 때는 앨범으로만 테스트를 진행하였기에 UIImagePickerControllerReferenceURL을 사용했어야 맞았던 것이다.
 
 따라서, 카메라와 앨범 등 다양한 상황에 맞게 이미지를 업로드 할 수 있도록 다음과 같이 코드를 변경하였다.
-{% highlight language %}
+{% highlight swift %}
 func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         // if it's a photo from the library, not an image from the camera
         if #available(iOS 8.0, \*), let referenceUrl = info[UIImagePickerControllerReferenceURL] as? URL {
