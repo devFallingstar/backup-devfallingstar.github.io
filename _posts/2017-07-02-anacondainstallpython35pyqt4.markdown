@@ -16,10 +16,7 @@ categories: ["Development", "Programming", "Python", "Anaconda", "PyQt"]
 1.  우선 아나콘다의 설치를 위해 [공식 홈페이지](https://www.continuum.io/downloads)로 접속한다.
 
 2.  아래 화면과 같은 창이 떴다면, 원하는 버전의 아나콘다를 다운로드하고 설치를 진행한다(필자는 python3.6, 64비트 버전을 설치했다).
-![아나콘다](/pictures/anaconda1.png)
 
-각종 설정은 입맛에 맞게 고치도록 한다. 별다른 특이사항이 없다면(공부가 목적이라면) OK만 눌러도 무방하다.
-**단, Advanced Options에 `Add Anaconda to the system PATH environment variables`라는 항목이 있는데, 이 항목은 체크하는 것을 추천한다.** 하지 않았다면 환경변수 설정을 따로 진행해줘야하기 때문에 귀찮을 수 있다.
 3.  시스템 환경 변수창에 들어가 PATH에 해당하는 환경변수에 다음과 같은 경로가 추가되어있는지 확인한다.
 
   `(아나콘다 설치 경로)\, (아나콘다 설치 경로)\Library\bin, (아나콘다 설치 경로)\Scripts`
