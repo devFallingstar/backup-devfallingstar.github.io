@@ -14,25 +14,14 @@ categories: ["Development", "Programming", "Python", "Anaconda", "PyQt"]
 
 # 아나콘다 설치 방법(Windows OS)
 1.  우선 아나콘다의 설치를 위해 [공식 홈페이지](https://www.continuum.io/downloads)로 접속한다.
-
 2.  아래 화면과 같은 창이 떴다면, 원하는 버전의 아나콘다를 다운로드하고 설치를 진행한다(필자는 python3.6, 64비트 버전을 설치했다).
-
-3.  시스템 환경 변수창에 들어가 PATH에 해당하는 환경변수에 다음과 같은 **3가지** 의 경로가 추가되어있는지 확인한다.
-
-_(아나콘다 설치 경로)\, (아나콘다 설치 경로)\Library\bin, (아나콘다 설치 경로)\Scripts_
-
+3.  시스템 환경 변수창에 들어가 PATH에 해당하는 환경변수에 다음과 같은 **3가지** 의 경로가 추가되어있는지 확인한다.  
+_(아나콘다 설치 경로)\, (아나콘다 설치 경로)\Library\bin, (아나콘다 설치 경로)\Scripts_  
 4.  설치를 모두 진행했다면, cmd를 **관리자 권한** 으로 실행한다.
-
-5.  conda create --name (원하는 이름) python=3.5를 입력한다. conda create는 아나콘다에 새로운 가상 환경을 만드는 명령어다.
-
-  작성 예시) **conda create --name myEnv python=3.5**
-
-  이후, y와 n을 물어보는 문장이 출력된다면 y를 입력한다(출력되지 않는다면 설치 과정 및 환경변수 설정 부분을 다시 체크해볼 것).
-
-6.  activate (만들었던 가상 환경 이름)이라고 입력한다. 해당 명령어는 만들어진 가상 환경을 cmd에서 사용하도록 하는 명령어다.
-
-  작성 예시) **activate myEnv**
-
-  정상적으로 가상 환경에 접속했다면, 매 line 제일 앞쪽에 (가상 환경 이름)이 붙게된다.
-
-7.  activate가 제대로 된 것을 확인한 후, `conda install -c anaconda pyqt=4`라고 입력하여 pyqt 4.x버전을 설치한다.
+5.  conda create --name (원하는 이름) python=3.5를 입력한다. conda create는 아나콘다에 새로운 가상 환경을 만드는 명령어다.  
+  작성 예시) **conda create --name myEnv python=3.5**  
+  이후, y와 n을 물어보는 문장이 출력된다면 y를 입력한다(출력되지 않는다면 설치 과정 및 환경변수 설정 부분을 다시 체크해볼 것).  
+6.  activate (만들었던 가상 환경 이름)이라고 입력한다. 해당 명령어는 만들어진 가상 환경을 cmd에서 사용하도록 하는 명령어다.  
+  작성 예시) **activate myEnv**  
+  정상적으로 가상 환경에 접속했다면, 매 line 제일 앞쪽에 (가상 환경 이름)이 붙게된다.  
+7.  activate가 제대로 된 것을 확인한 후, `conda install -c anaconda pyqt=4`라고 입력하여 pyqt 4.x버전을 설치한다.  
